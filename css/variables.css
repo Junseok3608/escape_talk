@@ -3,4 +3,9 @@
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --font-color: rgba(0, 0, 0, 0.4);
+  --main1: #3a4f7a;
+  --main2: #ffc6d3;
+  --main3: #fea1bf;
+  --main4: #e98ead;
+  --back-img: linear-gradient(to bottom right, #ffc6d3, #fea1bf, #e98ead);
 }
