@@ -1,0 +1,22 @@
+.badge {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.cogpointer {
+  width: 5px;
+  height: 5px;
+  right: 20px;
+  top: 40px;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+}
