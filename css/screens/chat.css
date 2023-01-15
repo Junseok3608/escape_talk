@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: var(--main1);
   height: 500vh;
 }
 
@@ -12,7 +12,7 @@
   width: 100%;
   box-sizing: border-box;
   top: 0;
-  background-color: #abc1d1;
+  background-color: var(--main1);
   z-index: 1;
 }
 
@@ -45,7 +45,7 @@
   padding: 15px;
   border-radius: 25px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 
@@ -65,7 +65,8 @@
 .message__time,
 .message__author {
   opacity: 0.8;
-  font-size: 15px;
+  font-size: 18px;
+  color: white;
 }
 
 .message__author {
@@ -79,6 +80,7 @@
   border-radius: 18px;
   margin-right: 5px;
   border-top-left-radius: 0px;
+  font-size: 20px;
 }
 
 .message__info {
@@ -106,21 +108,23 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 50px;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 25px;
+  padding: 5px 20px;
   align-items: center;
   box-sizing: border-box;
 }
 
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 5%;
 }
 
 .reply__column:last-child {
   width: 90%;
-  position: relative;
+  right: 10px;
+  position: absolute;
 }
 
 .reply i {
@@ -145,7 +149,7 @@
 
 .reply__column:last-child > i {
   right: 40px;
-  top: 9px;
+  top: 17px;
 }
 
 .reply__column:last-child button {
@@ -179,5 +183,5 @@
 
 .reply input:focus {
   width: 95vw;
-  transform: translateX(-13%);
+  transform: translateX(-5%);
 }
