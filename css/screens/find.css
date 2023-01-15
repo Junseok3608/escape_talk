@@ -99,3 +99,46 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+.news-component {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  border-radius: 15px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+  box-sizing: border-box;
+}
+.news-img {
+  width: 20%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.news-content span:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+.news-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-tab {
+  overflow: scroll;
+  height: 45vh;
+}
+.news-tab::-webkit-scrollbar {
+  display: none;
+}
