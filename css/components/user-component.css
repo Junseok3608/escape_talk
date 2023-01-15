@@ -18,13 +18,13 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .user-component__subtitle {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 30px;
 }
 
 .user-component__avatar--xl {
@@ -41,7 +41,7 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .user-component__column:last-child {
@@ -56,4 +56,12 @@
   margin-bottom: 10px;
   display: block;
   color: var(--horizontal-space);
+}
+
+.user-component:hover {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: var(--main1);
+  color: white;
+  cursor: pointer;
 }
