@@ -1,6 +1,6 @@
 # <Escape Talk>
 
-- 이름: Escape Talk
+- 이름: 돔황챠(Escape Talk)
 - 배포: '#'
 
 ---

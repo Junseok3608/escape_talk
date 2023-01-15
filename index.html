@@ -10,8 +10,9 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
         <i class="fas fa-wifi"></i>
+        <i class="fas fa-map-marker-alt"></i>
+        <!-- 여기에 로컬 위치 넣기 -->
       </div>
       <div class="status-bar__column">
         <span>11:31</span>
@@ -24,15 +25,14 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-      <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+      <h1 class="welcome-header__title">🏃‍♂️ 돔황챠 🏃‍♀️</h1>
+      <span></span>
     </header>
 
     <form method="get" action="friends.html" id="login-form">
       <input name="username" type="text" placeholder="Email or phone number" />
       <input name="password" type="password" placeholder="password" />
       <input type="submit" value="Log In" />
-      <a href="#">Find Kakao Account or Password</a>
     </form>
 
     <div id="no-mobile">

@@ -24,8 +24,11 @@
 }
 body {
   color: #2e363e;
-  height: 200vh;
+  height: 100vh;
   font-family: "nanum";
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .main-screen {

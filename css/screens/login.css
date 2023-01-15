@@ -1,7 +1,7 @@
-@import 'variables.css';
+@import "variables.css";
 
 .welcome-header {
-  margin: 90px 0px;
+  margin-top: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -27,11 +27,13 @@
 #login-form input {
   padding: 15px 0px;
   border: none;
-  font-size: 18px;
+  font-size: 26px;
+  font-family: "nanum";
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
-#login-form input:not([type='submit']) {
+#login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
@@ -41,11 +43,12 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--main1);
 }
 
-#login-form input[type='submit'] {
-  background-color: var(--yellow);
+#login-form input[type="submit"] {
+  background-color: var(--main1);
+  color: white;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 10px;
@@ -56,4 +59,13 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.welcome-header img {
+  border-radius: 50px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+.welcome-header h1 {
+  font-size: 50px;
 }
