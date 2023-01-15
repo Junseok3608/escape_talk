@@ -1,10 +1,15 @@
+.settings-list {
+  margin-top: 30px;
+}
 .settings__setting {
   padding: 20px 0px;
-  border-bottom: var(--main-border);
   font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.settings__setting:hover {
+  cursor: pointer;
 }
 
 .settings__setting i {
