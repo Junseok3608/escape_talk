@@ -49,3 +49,8 @@
 #set-menu:hover {
   cursor: pointer;
 }
+
+.screen-header__icons span:hover {
+  color: var(--main1);
+  cursor: pointer;
+}
