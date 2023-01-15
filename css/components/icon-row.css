@@ -1,12 +1,39 @@
 .icon-row {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 30px;
+  justify-content: space-around;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+.icon-row__icon:hover {
+  cursor: pointer;
+  color: var(--main1);
+  border-radius: 15px;
+  animation: swings 1s ease-in-out infinite;
+}
+
+@keyframes swings {
+  10% {
+    rotate: 10deg;
+  }
+  20% {
+    rotate: -10deg;
+  }
+  30% {
+    rotate: 10deg;
+  }
+  40% {
+    rotate: -10deg;
+  }
+  50% {
+    rotate: unset;
+  }
 }
 
 .icon-row__icon i {
@@ -14,5 +41,6 @@
 }
 
 .icon-row__icon span {
-  margin-top: 18px;
+  margin-top: 10px;
+  font-size: 20px;
 }
