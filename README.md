@@ -1,7 +1,7 @@
 # <Escape Talk>
 
 - 이름: 돔황챠(Escape Talk)
-- 배포: '#'
+- 배포: 'https://junseok3608.github.io/escape_talk/'
 
 ---
 
