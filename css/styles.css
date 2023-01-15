@@ -18,6 +18,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/organization.css";
 @font-face {
   font-family: "nanum";
   src: url(font/NanumPenScript-Regular.ttf);

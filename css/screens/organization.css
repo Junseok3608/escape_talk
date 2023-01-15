@@ -1,0 +1,22 @@
+.chart-btn {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.chart-btn button {
+  width: 25%;
+  padding: 1%;
+  margin: 3px;
+  font-family: inherit;
+  font-size: 20px;
+  color: var(--main1);
+  border-radius: 10px;
+  border: none;
+}
+.chart-btn button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--main1);
+}
