@@ -38,18 +38,36 @@
     </header>
 
     <main class="main-screen">
+      <div class="user-component setting-user">
+        <div class="user-component__column">
+          <img src="https://avatars.githubusercontent.com/u/75792069?v=4" class="user-component__avatar user-component__avatar" />
+          <div class="user-component__text">
+            <span>계정 이름</span>
+            <h4 class="user-component__title">김준석</h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="setting-email">
+        <span>기본 이메일</span>
+        <div>
+          <span>myjunee3608@gmail.com</span>
+          <i class="fas fa-edit"></i>
+        </div>
+        <span>연동된 이메일 입니다.</span>
+      </div>
       <ul class="settings-list">
         <li class="settings__setting">
           <div class="settings__setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
+            <i class="fas fa-key"></i>
+            <span>계정 비밀번호 설정</span>
           </div>
           <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
           <div class="settings__setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kakao Lab</span>
+            <i class="fas fa-fingerprint"></i>
+            <span>2단계 인증</span>
           </div>
           <div class="settings__setting-column"></div>
         </li>
@@ -61,43 +79,10 @@
           <div class="settings__setting-column">Latest Version</div>
         </li>
       </ul>
+      <a href="index.html">
+        <div class="setting-logout">로그아웃</div>
+      </a>
     </main>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
-            <p>토픽</p>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
-            <p>채팅</p>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="organization.html">
-            <i class="fas fa-sitemap fa-2x"></i>
-            <p>조직도</p>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fas fa-tools fa-2x"></i>
-            <p>툴</p>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__pointer"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
 
     <div id="no-mobile">
       <i class="fas fa-mobile-alt"></i>

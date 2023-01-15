@@ -3,7 +3,7 @@
 }
 .settings__setting {
   padding: 20px 0px;
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,4 +20,54 @@
 
 .settings__setting-column:last-child {
   opacity: 0.7;
+}
+
+.setting-user {
+  padding: 20px 10px;
+  border-radius: 15px;
+  background-color: silver;
+}
+.user-component__text > span {
+  font-size: 20px;
+}
+.setting-email {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  height: 100px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.setting-email > span {
+  color: silver;
+  font-size: 18px;
+}
+.setting-email div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.setting-email div i:hover {
+  cursor: pointer;
+}
+
+.setting-logout {
+  padding: 5px;
+  margin-top: 20px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  font-size: 25px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+.setting-logout:hover {
+  color: red;
+  background-color: white;
+  border: 3px solid silver;
 }
