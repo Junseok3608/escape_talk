@@ -2,6 +2,7 @@
 
 - 이름: 돔황챠(Escape Talk)
 - 배포: 'https://junseok3608.github.io/escape_talk/'
+- 제작후기: 'https://lkfkimschool.tistory.com/145'
 
 ---
 
